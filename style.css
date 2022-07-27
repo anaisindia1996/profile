@@ -1,0 +1,70 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(194, 224, 244);
+  color:rgb(24, 3, 3);
+  letter-spacing: 2px;
+  font-weight: 200;
+  font-size: 70;
+  text-align: center;
+  border-radius: 25px;
+  line-height: 3px;
+  margin: 10px
+
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 100;
+  border-radius: 25px;
+  letter-spacing: 0.5px;
+  color:rgb(10, 2, 2);
+}
+
+img {
+  text-align: center;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  color: rgb(24, 33, 47);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color:rgb(75, 75, 207);
+}
+
+h2 {
+   color: rgb(75, 75, 207);
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+.container-box-shadow {
+  background-image: url(./images/work.jpg);
+  width: 550px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 10px 5px 30px rgb(50 50 50 / 30%);
+  margin: 0 auto;
+}
+
+.card {
+  margin: 50px;
+  padding: 10px;
+  width: 560px;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
